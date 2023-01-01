@@ -5,7 +5,7 @@ const Navbar = () => {
     const handleClick = () => {setNav(!nav);}
 
   return (
-    <div className="w-full flex flex-col justify-around items-center bg-[#F2EEEE] fixed pt-3">
+    <div className="w-full flex flex-col justify-around items-center bg-[#F2EEEE] fixed pt-3 z-50">
         <div className="flex flex-row w-full justify-between items-center px-32">
             <img className="w-20" />
 
